@@ -1,0 +1,66 @@
+body {}
+
+
+.btn {
+    /* padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px; */
+    padding: 10px 30px;
+    margin: 10px;
+    border: 1px solid blue;
+
+    display: inline-block;
+    background-color: green;
+    transition: all .3s;
+
+}
+
+.btn:hover {
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    color: red;
+    font-size: 30px;
+}
+
+#dac-biet {
+    color: blue;
+}
+
+.gach-chan {
+    text-decoration: underline;
+}
+
+.mau-vang {
+    color: #ffce00;
+}
+
+.mau-tim {
+    color: purple;
+}
+
+.gach-chan-va-mau-vang {
+    text-decoration: underline;
+    color: #ffce00;
+}
+
+#main-header p {
+    color: blueviolet;
+}
+
+p:first-child {
+    font-style: italic;
+}
+
+p:last-child {
+    font-weight: bold;
+}
+
+.gach-chan:hover {
+    border: 1px solid #000;
+    padding: 15px;
+}
