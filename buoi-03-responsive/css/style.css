@@ -1,0 +1,30 @@
+html {
+    font-size: 30px;
+}
+
+.p {
+    color: red;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+    .p {
+        color: yellow;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .p {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+@media print {
+    .p {
+        color: #000;
+    }
+}
+
+@media screen and (min-width: 768px) {}
